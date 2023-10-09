@@ -6,6 +6,22 @@
     <title>Chat WS</title>
 </head>
 <body>
-    <h1>Chat WS</h1>
+    <h1>Chat WebSocket</h1>
+    <form id="form">
+        <label id="label">Digite sua mensagem</label>
+        <input type="text" id="msg">
+        <button type="submit">Enviar</button>
+
+    </form>
+
+    <ul id="mensagens">
+
+    </ul>
+
+    <div id="status"></div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
+
